@@ -1,13 +1,17 @@
+
+/* stylizes all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* adds a background color to the body of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* stylizes the header, adds padding, bg color, text color and declares font style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +19,7 @@ body {
     color: #ffffff;
 }
 
+/* styles the header texts of each section */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +29,7 @@ body {
     color: #d9dcd6;
 }
 
+/* styles the content within the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +38,7 @@ body {
     font-size: 20px;
 }
 
+/* prevents style type like bullet points */
 .header div ul {
     list-style-type: none;
 }
@@ -41,15 +48,18 @@ body {
     margin-left: 25px;
 }
 
+/* sets text display for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets font size for paragraphs */
 p {
     font-size: 16px;
 }
 
+/* stylizes the main photo at the top of the screen */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +68,22 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* places the images to the left/right side of the screen, adds a margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+ /* stylizes the main part of the webpage */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* styles the actual wording and images within the blocks */
 .content-headers {
     margin-bottom: 20px;
     padding: 50px;
@@ -93,6 +102,7 @@ p {
     font-size: 36px;
 }
 
+/* stylizes the sidebar where the benefits are displayed */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,6 +129,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* styles the footer */
 .footer {
     padding: 30px;
     clear: both;
